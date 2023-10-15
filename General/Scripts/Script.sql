@@ -1,0 +1,9 @@
+CREATE TABLE trabajadores (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(250) NOT NULL,
+    correo VARCHAR(250) UNIQUE NOT NULL,
+    direccion VARCHAR(250) NOT NULL,
+    telefono VARCHAR(250) NOT NULL
+);
+
+
